@@ -55,7 +55,7 @@ const embeddingsModel = new GoogleGenerativeAIEmbeddings({
   modelName: "embedding-001", // 768 dimensions
   taskType: TaskType.RETRIEVAL_DOCUMENT,
   title: "Document title",
-  apiKey: "AIzaSyC802ukeDoCKvh2oL1KdEFNBoX2cK6-pIc",
+  apiKey: "",
 });
 
 //#nbts@code

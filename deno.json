@@ -1,5 +1,7 @@
 {
+  "nodeModulesDir":"auto",
   "tasks": {
+    "install-deps": "deno install --allow-scripts", 
     "dev": "deno run --watch main.ts"
   },
   "imports": {
